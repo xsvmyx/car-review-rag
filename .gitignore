@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual env
+.venv/
+venv/
+
+# Env
+.env
+
+# ML / DL caches
+.cache/
+.cache/**
+torch/
+transformers/
+sentence_transformers/
+huggingface/
+
+# OS
+.DS_Store
+
+# Logs
+*.log
