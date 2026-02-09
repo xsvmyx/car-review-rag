@@ -7,7 +7,7 @@ from app.utilsLLM.extractVehicles import extract_vehicles_from_query
 # -------------------------
 # main RAG function
 # -------------------------
-def ask_car_reviews_bot_free_text(user_query, top_k=30, min_score=0.65):
+def ask_car_reviews_bot_free_text(user_query, top_k=5, min_score=0.65):
 
     # 1️⃣ Extraction des véhicules (JUSTE pour affichage et détection de comparaison)
     vehicles = extract_vehicles_from_query(user_query)
