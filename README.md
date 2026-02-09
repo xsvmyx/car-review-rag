@@ -27,29 +27,29 @@ It allows users to ask free-text questions about car models and get concise summ
 ```bash
 git clone https://github.com/xsvmyx/car-review-rag.git
 cd car-review-rag
-
+```
 
 2. Create a virtual environment (fish shell example):
 ```bash
 python -m venv .venv
 source .venv/bin/activate.fish
-
+```
 
 3. Install dependencies:
 ```bash
 pip install -r requirements.txt
-
+```
 
 4. Create a .env file with your API keys:
-
+```
 PINECONE_API_KEY=your_pinecone_api_key
 INDEX_v2=your_pinecone_index_name
 GROQ_API_KEY1=your_groq_api_key
 GROQ_API_KEY2=your_groq_api_key2
 GROQ_API_KEY3=your_groq_api_key3
-....
+```
 
-
+---
 
 ## Contributing Data
 
