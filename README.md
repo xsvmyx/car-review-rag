@@ -47,6 +47,7 @@ INDEX_v2=your_pinecone_index_name
 GROQ_API_KEY1=your_groq_api_key
 GROQ_API_KEY2=your_groq_api_key2
 GROQ_API_KEY3=your_groq_api_key3
+...
 ```
 
 ---
