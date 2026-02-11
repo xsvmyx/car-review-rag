@@ -1,4 +1,4 @@
-from app.utilsLLM.groqCall import call_groq_with_retry
+from bot.ragUtils.groqCall import call_groq_with_retry
 
 
 # -------------------------
@@ -57,7 +57,8 @@ def generate_response(user_query, context, is_comparison):
                 "4. If opinions differ, mention the disagreement.\n"
                 "5. If you do not have enough information to answer, reply exactly: I don't know about this.\n"
                 "6. Do NOT mention sources, datasets, or context explicitly.\n"
-                "7. Pay attention to the YEAR and MODEL in each review - use the exact vehicles asked about."
+                "7. Pay attention to the YEAR and MODEL in each review - use the exact vehicles asked about.\n"
+                "8. if you don't know don't say anything at all, just say \"I don't know about this.\"\n"
             )
         },
         {

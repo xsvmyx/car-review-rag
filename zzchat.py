@@ -14,6 +14,7 @@ load_dotenv()
 print("⏳ System init  (E5 + Pinecone + Groq)...", flush=True)
 
 model = SentenceTransformer("intfloat/e5-large-v2", device="cuda")
+
 pc = Pinecone(api_key=os.getenv("PINECONE_API_KEY"))
 index = pc.Index(os.getenv("INDEX_v2"))
 

@@ -1,5 +1,5 @@
 from groq import Groq
-from app.config import GROQ_KEYS, current_key_index, client
+from config import GROQ_KEYS, current_key_index, client
 
 
 

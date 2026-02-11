@@ -1,4 +1,4 @@
-from app.utilsLLM.groqCall import call_groq_with_retry
+from bot.ragUtils.groqCall import call_groq_with_retry
 import json
 
 
